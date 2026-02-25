@@ -1,14 +1,15 @@
-import sqlite3
+#import sqlite3
 
-DB_FILE = "users.db"
+#DB_FILE = "users.db"
 
-conn = sqlite3.connect(DB_FILE)
-cursor = conn.cursor()
+#conn = sqlite3.connect(DB_FILE)
+#cursor = conn.cursor()
 
 # Delete all users
-cursor.execute("DELETE FROM users")
+#cursor.execute("DELETE FROM users")
 
-conn.commit()
-conn.close()
+#conn.commit()
+#conn.close()
 
-print("All users deleted successfully.")
+#print("All users deleted successfully.")
+
